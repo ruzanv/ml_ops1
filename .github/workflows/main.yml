@@ -35,8 +35,7 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            kcherenkovv1/ml_ops1:${{ github.sha }}
-            kcherenkovv1/ml_ops1:latest
+            ruzanv/ml_ops1:latest
 
   lint_and_format_code:
     runs-on: ubuntu-latest

@@ -81,6 +81,7 @@ jobs:
       - name: Build package
         run: |
           python setup.py sdist bdist_wheel
+          mv dist/* dist/credit_analysis_ruzanv-$(date +%s)-py3-none-any.whl
       - name: Upload to TestPyPI
         env:
           TWINE_USERNAME: __token__

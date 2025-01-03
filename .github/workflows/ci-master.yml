@@ -99,7 +99,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y wget gdebi-core
-          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.38/quarto-linux-amd64.deb
+          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.5/quarto-1.7.5-linux-amd64.deb
           sudo gdebi -n quarto-linux-amd64.deb
       - name: Check Quarto version
         run: quarto --version

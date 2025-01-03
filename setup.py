@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+from datetime import datetime
 
 current_version = f"1.0-{datetime.now().strftime('%Y%m%d')}"
 

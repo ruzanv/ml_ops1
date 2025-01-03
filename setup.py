@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
 
+current_version = f"1.0-{datetime.now().strftime('%Y%m%d')}"
+
 setup(
     name="credit_analysis_ruzanv",
-    version="1.1b3",
+    version=current_version,
     description="Credit default analysis package for ruzanv",
     author="ruzanv",
     packages=find_packages(),

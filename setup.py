@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="credit_default_analysis",
+    name="credit_analysis_ruzanv",
     version="1.1b3",
-    description="Credit default analysis package",
-    author="Artem_Ruzanov",
+    description="Credit default analysis package for ruzanv",
+    author="ruzanv",
     packages=find_packages(),
     install_requires=[
     ],
